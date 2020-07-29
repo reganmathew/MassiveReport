@@ -1,2 +1,3 @@
 # MassiveReport
-experiment and analysis code
+
+This repository holds the experiment files and analysis code for the Tsuchiya lab's Massive Report Paradigm.
