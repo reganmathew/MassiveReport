@@ -1,0 +1,58 @@
+﻿<item catch_words>
+/ 1 = "PRESS: Yes 1"
+/ 2 = "PRESS: Yes 2"
+/ 3 = "PRESS: Yes 3"
+/ 4 = "PRESS: Yes 4"
+/ 5 = "PRESS: No 1"
+/ 6 = "PRESS: No 2"
+/ 7 = "PRESS: No 3"
+/ 8 = "PRESS: No 4"
+</item>
+<item prac_word_set1>
+/ 1 = "heart"
+/ 2 = "love"
+/ 3 = "red"
+/ 4 = "black"
+/ 5 = "outline"
+/ 6 = "color"
+</item>
+<item prac_word_set2>
+/ 1 = "face"
+/ 2 = "yellow"
+/ 3 = "eyes"
+/ 4 = "smile"
+/ 5 = "happy"
+/ 6 = "emoji"
+</item>
+<item prac_word_set3>
+/ 1 = "mountain"
+/ 2 = "sun"
+/ 3 = "cloud"
+/ 4 = "landscape"
+/ 5 = "blue"
+/ 6 = "sky"
+</item>
+<item prac_word_set4>
+/ 1 = "blanket"
+/ 2 = "crow"
+/ 3 = "wall"
+/ 4 = "day"
+/ 5 = "dome"
+/ 6 = "line"
+</item>
+<item prac_word_set5>
+/ 1 = "walk"
+/ 2 = "beauty"
+/ 3 = "metal"
+/ 4 = "grey-clothes"
+/ 5 = "anxious"
+/ 6 = "man"
+</item>
+<item prac_word_set6>
+/ 1 = "zoomed-in"
+/ 2 = "horse"
+/ 3 = "coat"
+/ 4 = "old"
+/ 5 = "stand"
+/ 6 = "blue-hat"
+</item>

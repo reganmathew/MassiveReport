@@ -1,0 +1,136 @@
+﻿<picture practice_pics>
+/ items = simple_pictures
+/ select = noreplace
+/ position = (50%, 50%)
+/ width = 100
+/ height = 100
+/ size = (100%, 100%)
+</picture>
+
+<picture stimuli>
+/ items = pictures
+/ select = noreplace
+/ position = (50%, 50%)
+/ width = 100
+/ height = 100
+/ size = (100%, 100%)
+</picture>
+
+<text catch_words>
+/ items = catch_words
+/ select = random
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text prac_present1>
+/ items = prac_word_set1
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text prac_present2>
+/ items = prac_word_set2
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text prac_present3>
+/ items = prac_word_set3
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text prac_absent1>
+/ items = prac_word_set4
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text prac_absent2>
+/ items = prac_word_set5
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text prac_absent3>
+/ items = prac_word_set6
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p1>
+/ items = present_wordset1
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p2>
+/ items = present_wordset2
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p3>
+/ items = present_wordset3
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p4>
+/ items = present_wordset4
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p5>
+/ items = present_wordset5
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text a1>
+/ items = absent_wordset1
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text a2>
+/ items = absent_wordset2
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text a3>
+/ items = absent_wordset3
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text a4>
+/ items = absent_wordset4
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text a5>
+/ items = absent_wordset5
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
