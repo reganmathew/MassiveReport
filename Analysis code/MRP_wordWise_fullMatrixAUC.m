@@ -70,7 +70,7 @@ end
 disp(respDB);
 
 %% Display figure
-
+score = struct([]);
 for fig = 1:nImages
     g=figure; g.Color='white';
     tempResults = results(fig).data *100;
@@ -91,11 +91,12 @@ for fig = 1:nImages
     
     heatmap(new_x,new_y,tempResults);
     colormap(autumn); caxis([0 100]);
-    set(gca,'FontSize',20);
+%     set(gca,'FontSize',20);
+%     print -djpeg
     
     % this still needs to be calc'd properly
     trianglePresent = triu(tempResults(1:10, 1:10,1));
-%     a=sum(trianglePresent); a=a-50; a=a(2:end);
+    %     a=sum(trianglePresent); a=a-50; a=a(2:end);
     a=trianglePresent(1:end-1,2:end);
     clear b; count=0
     for i=1:length(a)
@@ -106,8 +107,30 @@ for fig = 1:nImages
     end
     
     %     for i=1:length(a)
-%         b(i)=a(i)/i;
-%     end
+    %         b(i)=a(i)/i;
+    %     end
     c(fig,1)=mean(b);
     c(fig,2)=std(b);
+    
+    
+    score(fig).data = word2vec_scores(new_x,new_y);
+    tempMat_w2v = table2array(score(fig).data);
+    corr(tempMat_w2v,tempResults)
+    heatmap(new_x,new_y,tempMat_w2v)
+    colormap(autumn); caxis([-1 1]);
+    print -djpeg
+    
+    disp(new_y);
+    disp(new_x);
+%     pause(5);
+    disp(tempResults);
+%     pause(5);
+    disp(tempMat_w2v);
+    pause(5);
+    
+    close all;
+%     tempCorr_w2v = corr(tempMat_w2v,tempResults);
+%     heatmap(new_x,new_y,tempCorr_w2v)
+%     colormap(autumn); caxis([-1 1]);
+%     print -djpeg
 end

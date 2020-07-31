@@ -6,8 +6,10 @@ addpath 'Wordsets'
 addpath 'Helper scripts'
 addpath 'Analysis code'
 addpath 'MRP_Experiments'
+addpath 'Koh2020_wordsets'
+addpath 'Gallagher2020_data'
 
-rawData = importFile('Data/Gallagher2020_data/MRP_20Q_fixed_v1_raw.csv',[1,Inf]);
+rawData = importFile('Data//MRP_20Q_fixed_v1_raw.csv',[1,Inf]);
 
 importWords1 = importWords('Wordsets/Koh2020_wordsets/zhao_words_133_267_all.csv');
 importWords2 = importWords('Wordsets/Koh2020_wordsets/zhao_words_67_all.csv');
@@ -20,6 +22,7 @@ addRow_RespConf;
 addRow_Accuracy;
 sortColumns;
 
+import_word2vec_scores;
 workFlow_dataAnalysis;
 
 get_heatMaps;

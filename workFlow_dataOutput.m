@@ -20,6 +20,7 @@ addRow_RespConf;
 addRow_Accuracy;
 sortColumns;
 
+import_word2vec_scores;
 workFlow_dataAnalysis;
 
 get_heatMaps;
