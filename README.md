@@ -20,9 +20,7 @@ To run the experiment, you will need to launch inquisit 5. The main inquisit fil
 Experimental data for the 20Q version of the pilot can be found in "Data/Gallagher2020_data/MRP_20Q_Fixed_v1_raw.csv". data for the 20, 40, and 80 question versions can also be found in the same folder. Each has a Fixed and Varied word dataset.
 
 4. Performing the analyses  
-The main Matlab file needed to analyse the data is the "workFlow_dataOutput.m" script found in the main folder ("MassiveReport/"). This file includes all of the necessary paths, wordset files, and data files. other dependencies including the individual scripts that do all the heavy lifting for the analyses are included at the bottom of the file. 
-
-Running the main file "workFlow_dataOutput.m" will automate the analysis of experimental data. These analyses require the Psychophysics toolbox and have been tested on Matlab R2019a and R2020a.
+The main Matlab file needed to analyse the data is the "workFlow_dataOutput.m" script found in the main folder ("MassiveReport/"). This file includes all of the necessary paths, wordset files, and data files. other dependencies including the individual scripts that do all the heavy lifting for the analyses are included at the bottom of the file. Running the main file "workFlow_dataOutput.m" will automate the analysis of experimental data. These analyses require the Psychophysics toolbox and have been tested on Matlab R2019a and R2020a.
 
 5. Visualising the results
 Forthcoming.
