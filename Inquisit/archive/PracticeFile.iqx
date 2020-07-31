@@ -1,0 +1,52 @@
+﻿<item practice_pictures>
+/1 = "im0000003.jpg"
+/2 = "im0000009.jpg"
+</item>
+
+<picture practice_stimuli>
+/items = practice_pictures
+/select = noreplacenorepeat
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+
+<item response>
+/1 = "response/respond_no.png"
+/2 = "response/respond_yes.png"
+</item>
+
+<picture yes_no>
+/ items = response 
+</picture>
+
+<defaults>
+/canvasaspectratio = (4,3)
+/minimumversion = "5.0.0.0"
+/ fontstyle = ("Arial", 1.75%, false, false, false, false, 5, 1)
+</defaults>
+
+<text taskreminder>  
+/ items = ("Is the word a good description of the image or feature?")
+/ position = (50, 15)
+/ txcolor = (0, 0, 255)
+/ fontstyle = ("Courier New", 12pt)
+</text>
+
+<text focuspoint>  
+/ items = ("          +          ")
+</text>
+
+
+
+
+
+
+
+
+
+
+
+

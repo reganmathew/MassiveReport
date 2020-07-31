@@ -1,0 +1,60 @@
+﻿<item masks>
+/1 = "Images/mask1.jpg"
+/2 = "Images/mask2.jpg"
+/3 = "Images/mask3.jpg"
+/4 = "Images/mask4.jpg"
+/5 = "Images/mask5.jpg"
+</item>
+
+<picture mask1>
+/items = masks
+/select = noreplacenorepeat
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+<picture mask2>
+/items = masks
+/select = noreplacenorepeat
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+<picture mask3>
+/items = masks
+/select = noreplacenorepeat
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+<picture mask4>
+/items = masks
+/select = noreplacenorepeat
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+<picture mask5>
+/items = masks
+/select = noreplacenorepeat
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+<shape blank>
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+/ color = (255,255,255)
+</shape>

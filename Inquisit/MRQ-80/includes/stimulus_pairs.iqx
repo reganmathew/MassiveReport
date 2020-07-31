@@ -1,0 +1,116 @@
+﻿<picture practice_pics>
+/ items = pictures
+/ select = sequence(1,2,3)
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+<picture stimuli>
+/ items = pictures
+/ select = noreplace(4-13)
+/position = (50%, 50%)
+/ width = 100
+/ height = 100
+/size = (100%, 100%)
+</picture>
+
+<text p1>
+/ items = word_set1
+/ select = sequence
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p2>
+/ items = word_set2
+/ select = sequence
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p3>
+/ items = word_set3
+/ select = sequence
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p4>
+/ items = word_set4
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p5>
+/ items = word_set5
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+
+<text p6>
+/ items = word_set6
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p7>
+/ items = word_set7
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p8>
+/ items = word_set8
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p9>
+/ items = word_set9
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p10>
+/ items = word_set10
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p11>
+/ items = word_set11
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p12>
+/ items = word_set12
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text p13>
+/ items = word_set13
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
+
+<text absent_words>
+/ items = absent_words
+/ select = noreplace
+/ vposition = values.textPosition
+/ fontstyle = ("Avenir next", values.MYfontsize, true, false, false, false, 5, 0)
+</text>
