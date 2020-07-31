@@ -3,11 +3,11 @@
 This repository holds the experiment files and analysis code for the Tsuchiya lab's Massive Report Paradigm.
 
 Contents
-1. Viewing the wordsets used in the pilots
-2. Running the Massive Report Experiment
-3. Downloading the pilot datasets
-4. Performing the analyses  
-5. Visualising the results
+**1. Viewing the wordsets used in the pilots**
+**2. Running the Massive Report Experiment**
+**3. Downloading the pilot datasets**
+**4. Performing the analyses**
+**5. Visualising the results**
 
 ----
 
