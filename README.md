@@ -9,7 +9,7 @@ Contents
 4. Performing the analyses  
 5. Visualising the results
 
-
+----
 1. Viewing the wordsets used in the pilots
 The wordsets used for the pilot experiments can be found in "Wordsets/Koh2020/"
 
